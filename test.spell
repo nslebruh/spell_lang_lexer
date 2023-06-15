@@ -1,0 +1,50 @@
+Declare thy scripture "A tale of enchantments in the ancient realm".
+
+Mystical declarations are as follows...
+bestow the essence of wizard_name, bearing the sacred words "Merlin"  -- Conjure the essence of a mystical wizard
+grant the essence of age, thusly embodying 100  -- Manifest the essence of a mystical age
+imbue the essence of is_powerful, bearing the truth of being true  -- Enchant the essence of a mystical power.
+
+proclaimeth, "Greetings, fellow wizards!"  -- Unveil a sacred incantation
+
+-- Enchanted conditions
+should the essence of age be greater than 100, then
+  proclaimeth, "Thou art an elder wizard, ", concatenated with the essence of the wizard_name, thusly adorned.
+elseif the essence of age be equal to 100, then
+  proclaimeth, "Thou hast reached the pinnacle of wisdom, ", concatenated with the essence of the wizard_name, thusly announced.
+else
+  proclaimeth, "Thou art but a young apprentice, ", concatenated with the essence of the wizard_name, thusly spoken.
+end
+
+-- Loopeth through the mystical realms
+forsooth, i becometh 1, and i shalt continue through 5, incrementing by 1, do
+  proclaimeth, "Casting spell number ", concatenated with i.
+
+
+-- Enchanted spells
+declare the magic of invisibility, an enchantment, thusly ->
+  proclaimeth, "I shall vanish from sight!".
+
+invoke the magic of invisibility!  -- Invoke an enchanted spell
+
+-- Tome (A mystical grimoire)
+the essence of wizard_properties becometh, a collection of enchanted scrolls, thusly containing...
+  the essence of wand, bearing the sacred words "Elder Oak",
+  the essence of spellbook, an ancient tome containing the wisdom of the ages,
+  the essence of familiar, embodying a wise owl
+.
+
+proclaimeth, "Wizard's wand: ", concatenated with the essence of the wizard_properties.wand
+proclaimeth, "Spellbook: ", concatenated with the essence of the wizard_properties.spellbook
+
+-- Mystical Potions (represented as enchanted vials)
+the essence of potions becometh, a collection of enchanted vials, thusly containing...
+  "Potion of Healing",
+  "Elixir of Strength",
+  "Mana Draught"
+end
+
+-- Sip the magical elixirs
+forsooth, i and potion be traversing the potions, do
+  proclaimeth, "Sipping from the enchanted vial: ", concatenated with i, "-", concatenated with potion
+end
